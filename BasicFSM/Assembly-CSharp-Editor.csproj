@@ -53,6 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
      <Compile Include="Assets\Editor\MoveSceneViewCamera.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
@@ -89,6 +93,7 @@
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
  <Reference Include="Unity.DocZh.Editor">
  <HintPath>D:/Unity_git_workspace/UnityWorkSpace/BasicFSM/Library/ScriptAssemblies/Unity.DocZh.Editor.dll</HintPath>
  </Reference>
@@ -347,8 +352,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <Reference Include="BehaviorDesignerEditor">
+ <HintPath>D:/Unity_git_workspace/UnityWorkSpace/BasicFSM/Assets/Behavior Designer/Editor/BehaviorDesignerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="BehaviorDesignerRuntime">
+ <HintPath>D:/Unity_git_workspace/UnityWorkSpace/BasicFSM/Assets/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Unity_git_workspace/UnityWorkSpace/BasicFSM/Assets/DOTween/DOTween.dll</HintPath>
