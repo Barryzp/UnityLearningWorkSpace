@@ -10,7 +10,7 @@ public class PatrolState :FSMState
     private Vector3 destPos = Vector3.zero;
 
     private void FindNextPoint(){
-        print("find next point.");
+        Debug.Log("find next point.");
     }
 
     public PatrolState(Transform[] wanderPoints){
